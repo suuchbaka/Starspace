@@ -33,4 +33,14 @@ public class Brick extends Entities {
     public float getHeight() {
         return super.getHeight();
     }
+
+    @Override
+    public void setPosition(float x, float y) {
+        super.setPosition(x, y);
+    }
+
+    @Override
+    public void update(float delta) {
+        super.update(delta);
+    }
 }

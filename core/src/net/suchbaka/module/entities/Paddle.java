@@ -33,4 +33,9 @@ public class Paddle extends Entities {
     public float getHeight() {
         return super.getHeight();
     }
+
+    @Override
+    public void update(float delta) {
+        super.update(delta);
+    }
 }
